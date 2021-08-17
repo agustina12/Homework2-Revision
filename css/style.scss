@@ -1,0 +1,210 @@
+@font-face {
+    font-family: "Heebo", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+}
+
+@font-face {
+    font-family: "Heebo", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Inter", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+}
+
+//style
+$prmaryColor: #21243d;
+$secondColor: #edf7fa;
+$tertiaryColor: #136223;
+$textColor: #8695a4;
+//variabels
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+    font-family: "Heebo", sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: "Heebo", sans-serif;
+}
+
+// main heaading style
+.main-heading {
+    padding-top: 150px;
+    padding-bottom: 120px;
+    h1 {
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 60px;
+        color: $prmaryColor;
+    }
+    p {
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        color: $prmaryColor;
+    }
+}
+
+// main hero style
+.main-hero {
+    padding-top: 60px;
+    background-color: $secondColor;
+    height: 480px;
+    width: 100%;
+    font-family: Inter;
+    margin-left: unset;
+    .contact {
+        padding: 10px 0 0 0px;
+        height: 28.44px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.05em;
+    }
+    .contact h4 {
+        color: $tertiaryColor;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 0.015em;
+        padding-bottom: 12px;
+    }
+    .contact-icon {
+        display: flex;
+        justify-content: start;
+    }
+    .contact-icon span {
+        margin-right: 20px;
+        align-items: center;
+    }
+    .school-university {
+        padding-top: 10px;
+    }
+    .school-university h4 {
+        color: $tertiaryColor;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 0.015em;
+    }
+    .school-university h5 {
+        padding-top: 12px;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 0.015em;
+        color: $prmaryColor;
+    }
+    .school-university h6 {
+        font-style: italic;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 15px;
+        color: $prmaryColor;
+    }
+    .school-university li {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.015em;
+        color: $textColor;
+    }
+    .school-univers h5 {
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 0.015em;
+        color: $prmaryColor;
+    }
+    .school-univers h6 {
+        font-style: italic;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 15px;
+        color: $prmaryColor;
+    }
+    .school-univers li {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.015em;
+        color: $textColor;
+    }
+}
+
+// main hero two style
+.main-hero-two {
+    padding-top: 120px;
+    font-family: Heebo;
+    .main-hero-project h4 {
+        font-family: Inter;
+        color: $tertiaryColor;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 0.015em;
+        padding-bottom: 20px;
+    }
+    .project-text h5 {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        color: $prmaryColor;
+    }
+    .sub-project {
+        display: flex;
+        justify-content: start;
+    }
+    .sub-project a {
+        background-color: $prmaryColor;
+        border-radius: 16px;
+        color: $secondColor;
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 18px;
+        width: 62px;
+        height: 25px;
+        text-align: center;
+    }
+    .sub-project p {
+        border-radius: 16px;
+        color: $textColor;
+        font-size: 20px;
+        line-height: 29px;
+        height: 25px;
+        margin-left: 10px;
+    }
+    p {
+        font-family: Heebo;
+        font-size: 16px;
+        line-height: 23px;
+        color: $prmaryColor;
+    }
+}
+
+// footer style
+footer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .footer-icon {
+        display: flex;
+        justify-content: start;
+        text-decoration: none;
+    }
+    .sub-icon {
+        margin-right: 30px;
+    }
+}

@@ -1,0 +1,245 @@
+@font-face {
+  font-family: "Heebo", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+}
+
+@font-face {
+  font-family: "Heebo", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+  font-family: "Heebo", sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Heebo", sans-serif;
+}
+
+.main-heading {
+  padding-top: 150px;
+  padding-bottom: 120px;
+}
+
+.main-heading h1 {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+}
+
+.main-heading p {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243d;
+}
+
+.main-hero {
+  padding-top: 60px;
+  background-color: #edf7fa;
+  height: 480px;
+  width: 100%;
+  font-family: Inter;
+  margin-left: unset;
+}
+
+.main-hero .contact {
+  padding: 10px 0 0 0px;
+  height: 28.44px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+}
+
+.main-hero .contact h4 {
+  color: #136223;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.015em;
+  padding-bottom: 12px;
+}
+
+.main-hero .contact-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.main-hero .contact-icon span {
+  margin-right: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-hero .school-university {
+  padding-top: 10px;
+}
+
+.main-hero .school-university h4 {
+  color: #136223;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.015em;
+}
+
+.main-hero .school-university h5 {
+  padding-top: 12px;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.015em;
+  color: #21243d;
+}
+
+.main-hero .school-university h6 {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 15px;
+  color: #21243d;
+}
+
+.main-hero .school-university li {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.015em;
+  color: #8695a4;
+}
+
+.main-hero .school-univers h5 {
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.015em;
+  color: #21243d;
+}
+
+.main-hero .school-univers h6 {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 15px;
+  color: #21243d;
+}
+
+.main-hero .school-univers li {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.015em;
+  color: #8695a4;
+}
+
+.main-hero-two {
+  padding-top: 120px;
+  font-family: Heebo;
+}
+
+.main-hero-two .main-hero-project h4 {
+  font-family: Inter;
+  color: #136223;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.015em;
+  padding-bottom: 20px;
+}
+
+.main-hero-two .project-text h5 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243d;
+}
+
+.main-hero-two .sub-project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.main-hero-two .sub-project a {
+  background-color: #21243d;
+  border-radius: 16px;
+  color: #edf7fa;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 18px;
+  width: 62px;
+  height: 25px;
+  text-align: center;
+}
+
+.main-hero-two .sub-project p {
+  border-radius: 16px;
+  color: #8695a4;
+  font-size: 20px;
+  line-height: 29px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.main-hero-two p {
+  font-family: Heebo;
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243d;
+}
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  text-decoration: none;
+}
+
+footer .sub-icon {
+  margin-right: 30px;
+}
+/*# sourceMappingURL=style.css.map */
